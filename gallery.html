@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Mehandi Touch</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">Mehandi Touch</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section py-5" style="margin-top: 76px;">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Our Gallery</span>
+                <h2 class="section-title">Explore Our Beautiful Mehandi Designs</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="gallery-filter text-center mb-5" data-aos="fade-up">
+                <button class="btn btn-outline-primary active" data-filter="all">All Designs</button>
+                <button class="btn btn-outline-primary" data-filter="bridal">Bridal</button>
+                <button class="btn btn-outline-primary" data-filter="party">Party</button>
+                <button class="btn btn-outline-primary" data-filter="custom">Custom</button>
+                <button class="btn btn-outline-primary" data-filter="special">Special Events</button>
+            </div>
+
+            <div class="row g-4 gallery-grid">
+                <!-- Bridal Mehandi -->
+                <div class="col-md-4 gallery-item" data-category="bridal" data-aos="fade-up">
+                    <a href="images/gallery-1.webp" data-lightbox="gallery" data-title="Bridal Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-1.webp" alt="Bridal Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Bridal Design</h4>
+                                    <p>Traditional & Modern</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item" data-category="bridal" data-aos="fade-up" data-aos-delay="100">
+                    <a href="images/gallery-2.webp" data-lightbox="gallery" data-title="Bridal Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-2.webp" alt="Bridal Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Bridal Design</h4>
+                                    <p>Intricate Patterns</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item" data-category="bridal" data-aos="fade-up" data-aos-delay="200">
+                    <a href="images/gallery-3.webp" data-lightbox="gallery" data-title="Bridal Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-3.webp" alt="Bridal Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Bridal Design</h4>
+                                    <p>Full Hand Design</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Party Mehandi -->
+                <div class="col-md-4 gallery-item" data-category="party" data-aos="fade-up">
+                    <a href="images/gallery-1.webp" data-lightbox="gallery" data-title="Party Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-2.webp" alt="Party Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Party Design</h4>
+                                    <p>Quick & Elegant</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item" data-category="party" data-aos="fade-up" data-aos-delay="100">
+                    <a href="images/gallery-2.webp" data-lightbox="gallery" data-title="Party Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-1.webp" alt="Party Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Party Design</h4>
+                                    <p>Modern Style</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item" data-category="party" data-aos="fade-up" data-aos-delay="200">
+                    <a href="images/gallery-3.webp" data-lightbox="gallery" data-title="Party Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-3.webp" alt="Party Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Party Design</h4>
+                                    <p>Festive Special</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Custom Designs -->
+                <div class="col-md-4 gallery-item" data-category="custom" data-aos="fade-up">
+                    <a href="images/gallery-1.webp" data-lightbox="gallery" data-title="Custom Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-1.webp" alt="Custom Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Custom Design</h4>
+                                    <p>Personalized Style</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item" data-category="custom" data-aos="fade-up" data-aos-delay="100">
+                    <a href="images/gallery-2.webp" data-lightbox="gallery" data-title="Custom Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-2.webp" alt="Custom Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Custom Design</h4>
+                                    <p>Unique Patterns</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item" data-category="custom" data-aos="fade-up" data-aos-delay="200">
+                    <a href="images/gallery-3.webp" data-lightbox="gallery" data-title="Custom Mehandi Design">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-3.webp" alt="Custom Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Custom Design</h4>
+                                    <p>Artistic Creation</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Special Events -->
+                <div class="col-md-4 gallery-item" data-category="special" data-aos="fade-up">
+                    <a href="images/gallery-1.webp" data-lightbox="gallery" data-title="Special Event Mehandi">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-1.webp" alt="Special Event Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Special Event</h4>
+                                    <p>Corporate Design</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item" data-category="special" data-aos="fade-up" data-aos-delay="100">
+                    <a href="images/gallery-2.webp" data-lightbox="gallery" data-title="Special Event Mehandi">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-2.webp" alt="Special Event Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Special Event</h4>
+                                    <p>Festival Special</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 gallery-item" data-category="special" data-aos="fade-up" data-aos-delay="200">
+                    <a href="images/gallery-3.webp" data-lightbox="gallery" data-title="Special Event Mehandi">
+                        <div class="gallery-item-wrapper">
+                            <img src="images/gallery-3.webp" alt="Special Event Mehandi" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <div class="gallery-content">
+                                    <h4>Special Event</h4>
+                                    <p>Group Design</p>
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>"The bridal mehandi design was absolutely stunning! The attention to detail and the beautiful patterns made my wedding day even more special."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjWR5_cxumDdjcABJUiLqWbrumCtsuogGkb--r-O5T3_rXlj4QQh=w72-h72-p-rp-mo-br100" alt="Client" class="rounded-circle">
+                            <div class="author-info">
+                                <h4>Priya Sharma</h4>
+                                <p>Bridal Client</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>"Professional service and beautiful designs! The team was very accommodating and made sure everyone at our party had beautiful mehandi."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://lh3.googleusercontent.com/p/AF1QipPDPElYSpquhJy8ZNwYsqspnJmfYOglHuxuFwf4=w36-h36-p-k-no-rp-br100" alt="Client" class="rounded-circle">
+                            <div class="author-info">
+                                <h4>Rahul Patel</h4>
+                                <p>Party Event</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p>"The custom design I requested was executed perfectly. The artist understood exactly what I wanted and created a unique piece of art."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://lh3.googleusercontent.com/a/ACg8ocJ5UsJnaPdIiW7qPEVY5V-t4LJScJPi8d91JfVfctlCn9XhFg=w72-h72-p-rp-mo-br100" alt="Client" class="rounded-circle">
+                            <div class="author-info">
+                                <h4>Anjali Desai</h4>
+                                <p>Custom Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <h5>Mehandi Touch</h5>
+                        <p>Creating beautiful memories with artistic mehandi designs in Kolhapur. We blend traditional artistry with contemporary designs to make your special moments unforgettable.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact Us</h5>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-phone"></i> +91 1234567890</li>
+                        <li><i class="fas fa-envelope"></i> info@mehanditouch.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Kolhapur, Maharashtra</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 10:00 AM - 8:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mehandi Touch. All rights reserved. | Designed with <i class="fas fa-heart" style="color: var(--secondary-color);"></i> in Kolhapur</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Gallery Filter
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.gallery-filter button');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const filterValue = this.getAttribute('data-filter');
+
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
